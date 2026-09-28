@@ -6,11 +6,11 @@ const EMAIL = 'romulorgc@gmail.com';
 const UPDATED = { pt: '28 de setembro de 2026', en: 'September 28, 2026', es: '28 de septiembre de 2026' };
 
 const css = `
-:root{--bg:#FBF6EE;--surface:#fff;--ink:#2E2522;--soft:#6E5F57;--line:#EADFD1;--primary:#B5532F;--primarySoft:#F7E3D8}
+:root{--bg:#FAF9F7;--surface:#fff;--ink:#1F2A30;--soft:#5C696F;--line:#EAE7E0;--primary:#9C5208;--primarySoft:#FDE9D2}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 Nunito,system-ui,-apple-system,Segoe UI,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Poppins,system-ui,-apple-system,Segoe UI,sans-serif}
 main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
-h1,h2{font-family:Fraunces,Georgia,serif;line-height:1.2;letter-spacing:-.01em}
+h1,h2{font-family:Poppins,system-ui,sans-serif;font-weight:700;line-height:1.2;letter-spacing:-.02em}
 h1{font-size:40px;margin:.2em 0 .4em}h2{font-size:24px;margin:1.6em 0 .4em}
 a{color:var(--primary)}p,li{color:var(--ink)}.soft{color:var(--soft)}
 header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px;flex-wrap:wrap}
@@ -25,7 +25,7 @@ footer{margin-top:40px;font-size:15px;color:var(--soft)}footer a{margin-right:14
 [data-lang]{display:none}[data-lang].show{display:block}
 `;
 
-const fonts = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">';
+const fonts = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">';
 
 const script = `<script>
 (function(){var q=new URLSearchParams(location.search).get('lang');var n=(navigator.language||'en').slice(0,2);
